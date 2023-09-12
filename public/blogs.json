@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "cover_img": "./images/1.jpg",
+        "title": "Sample Title 1",
+        "author_img": "./images/boy1.png",
+        "Posted_date": "2023-09-12",
+        "reading_time": 30,  
+        "hashtags": ["tag1", "tag2"], 
+        "bookmark_png": "./images/profile.png"
+    },
+    {
+        "id": "2",
+        "cover_img": "./images/2.jpg",
+        "title": "Sample Title 2",
+        "author_img": "./images/boy2.png",
+        "Posted_date": "2023-09-13",
+        "reading_time": 45, 
+        "hashtags": ["tag3", "tag4"],  
+        "bookmark_png": "./images/profile.png"
+    },
+    {
+        "id": "3",
+        "cover_img": "./images/3.jpg",
+        "title": "Sample Title 3",
+        "author_img": "./images/girl1.jpg",
+        "Posted_date": "2023-09-14",
+        "reading_time": 25,  
+        "hashtags": ["tag5", "tag6"],  
+        "bookmark_png": "./images/profile.png"
+    },
+    {
+        "id": "4",
+        "cover_img": "./images/4.jpg",
+        "title": "Sample Title 4",
+        "author_img": "./images/girl2.jpg",
+        "Posted_date": "2023-09-15",
+        "reading_time": 40, 
+        "hashtags": ["tag7", "tag8"], 
+        "bookmark_png": "./images/profile.png"
+    }
+]
