@@ -7,7 +7,7 @@ import Blog from "../Blog/Blog";
 2.UseEffect for load data
 
 */ 
-const Blogs = () => {
+const Blogs = ({handelBookmarks,handelReadingTime}) => {
     const [Blogs,setBlogs]=useState([])//
 
     useEffect(() =>{
@@ -19,8 +19,17 @@ const Blogs = () => {
 
     return (
         <div className="md:w-2/3">
-            <h1>Blogs: {Blogs.length}</h1>
-            <Blog />
+            
+            {
+                Blogs.map(blog => 
+                <Blog 
+                    key={blog.id}
+                    blog={blog}
+                    handelBookmarks={handelBookmarks}
+                    handelReadingTime={handelReadingTime}
+                ></Blog>)
+                
+            }
         </div>
     );
 };
